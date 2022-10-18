@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="title">
-        <img src="@/assets/heart.svg" alt="heart icon" />
+        <img src="./assets/heart.svg" alt="heart icon" />
         <h1>Vue 3 + TS Jobs</h1>
       </div>
 
@@ -19,9 +19,9 @@
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 
-import Job from "@/types/job";
-import JobsList from "@/components/JobsList.vue";
-import OrderTerm from "@/types/OrderTerm";
+import Job from "../types/job";
+import JobsList from "./components/JobsList.vue";
+import OrderTerm from "../types/OrderTerm";
 
 export default defineComponent({
   name: "Home",

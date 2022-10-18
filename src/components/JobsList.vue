@@ -31,8 +31,8 @@
 </template>
 
 <script lang="ts">
-import Job from "@/types/job";
-import OrderTerm from "@/types/OrderTerm";
+import Job from "../types/job";
+import OrderTerm from "../types/OrderTerm";
 import { computed, defineComponent, PropType } from "vue";
 
 export default defineComponent({
