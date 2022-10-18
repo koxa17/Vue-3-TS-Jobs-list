@@ -19,9 +19,9 @@
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 
-import Job from "../types/job";
-import JobsList from "../components/JobsList.vue";
-import OrderTerm from "../types/OrderTerm";
+import Job from "@/types/job";
+import JobsList from "@/components/JobsList.vue";
+import OrderTerm from "@/types/OrderTerm";
 
 export default defineComponent({
   name: "Home",
